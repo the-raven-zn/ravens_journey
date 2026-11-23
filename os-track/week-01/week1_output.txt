@@ -1,0 +1,7 @@
++/etc/zsh/zshenv:15> [[ -z /home/kali/.local/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/kali/.dotnet/tools || /home/kali/.local/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/kali/.dotnet/tools == /bin:/usr/bin ]]
++./week1_lab.sh:7> touch a.txt b.txt c.txt
++./week1_lab.sh:10> chmod 640 a.txt
++./week1_lab.sh:11> ls -l a.txt
+-rw-r----- 1 kali kali 0 Nov 23 15:47 a.txt
++./week1_lab.sh:15> cat /proc/version
+Linux version 7.2.15+kali-amd64 (devel@kali.org) (x86_64-linux-gnu-gcc-16 (Debian 16.2.0-3) 16.2.0, GNU ld (GNU Binutils for Debian) 2.47.50.20261021) #1 SMP PREEMPT_DYNAMIC Kali 7.2.15-1kali1 (2026-11-03)
